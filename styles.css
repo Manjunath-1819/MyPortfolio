@@ -1,0 +1,106 @@
+header{
+    color:white;
+    background-color: aqua;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       flex-wrap: wrap;
+}
+h1{
+    font-size: 3em;
+    color:blue;
+}
+     header h1{
+        font-size: 3em;
+       margin:0;
+       font-weight: bolder;
+       color:white;
+       position:relative;
+    text-align: center;
+    }
+    a{
+           text-decoration: none;
+    }
+    .button{
+        margin:15px;
+        height:40px;
+       width:90px;
+         position:relative;
+        text-align:center;
+       color:black;
+       border: none;
+       border-radius: 10px;
+       cursor: pointer;
+       text-decoration: none;
+       transition:all 0s linear 0s;
+    }
+    .button:hover{
+        color: white;
+        background-color: darkblue;
+        transform: translateY(-10px);
+    }
+    img{
+       height:200px;
+    
+    }
+    section{
+        height:100vh;
+        border:1px solid grey;
+        border-radius: 10px;
+        margin-top:20px;
+          display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    }
+    form div{
+        margin:5px 0px;
+    }
+    main{
+        padding:20px;
+    }
+    body{
+         background-color:lightblue;
+    }
+    *{
+        font-size: 15px;
+        font-family: monospace;
+    }
+    .submit{
+         height:40px;
+       width:90px;
+       color:black;
+       cursor: pointer;
+       border-radius: 10px;
+       background-color: aqua;
+    }
+     .submit:hover{
+        color: white;
+        background-color: darkblue;
+    }
+    .input{
+        border-radius: 5px;
+        height:25px;
+    }
+    footer{
+        color:grey;
+        background-color: black;
+        height:25vh;
+          display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .top{
+        right:75px;
+        height:50px;
+        width: 50px;
+        border-radius: 25px;
+        color:white;
+        background-color: blue;
+        position: fixed;
+        bottom:0;
+    }
